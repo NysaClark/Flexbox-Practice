@@ -1,0 +1,37 @@
+.flex-container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+}
+
+.row{flex-direction: row;}
+.row li{background-color: pink;}
+
+.row-reverse{flex-direction: row-reverse;}
+.row-reverse li{background-color: lightsalmon;}
+
+.column{
+    flex-direction: column;
+    float: left;
+}
+.column li{background-color: lightgreen;}
+
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+}
+.column-reverse li{background-color: lightblue;}
+
+.flex-item{
+    padding: 5px;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+
+    line-height: 50px;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}

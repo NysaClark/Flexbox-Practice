@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="flexGrow.css">
+    <title>Flex Direction Practice</title>
+</head>
+<body>
+    <h1>
+        Flexbox <code>flex-grow</code>
+    </h1>
+    <h2 class="stretch">
+        flex-grow:0
+    </h2>
+    <div class="flexbox grow-0">
+        <div class="item item-A">
+            <h2>A</h2>
+        </div>
+        <div class="item item-B">
+            <h2>B</h2>
+        </div>
+        <div class="item item-C">
+            <h2>C</h2>
+        </div>
+    </div>
+
+    <h2 class="stretch">
+        flex-grow:1
+    </h2>
+    <div class="flexbox grow-1">
+        <div class="item item-A">
+            <h2>A</h2>
+        </div>
+        <div class="item item-B">
+            <h2>B</h2>
+        </div>
+        <div class="item item-C">
+            <h2>C</h2>
+        </div>
+    </div>
+
+    <h2 class="stretch">
+        flex-grow:1 but C is flex-grow:3
+    </h2>
+    <div class="flexbox grow-1">
+        <div class="item item-A">
+            <h2>A</h2>
+        </div>
+        <div class="item item-B">
+            <h2>B</h2>
+        </div>
+        <div class="item item-C grow-3">
+            <h2>C</h2>
+        </div>
+    </div>
+</body>
+</html>

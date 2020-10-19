@@ -1,0 +1,50 @@
+.flexbox{
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+.item{
+    box-sizing: border-box;
+    padding: 2rem;
+    background: #e09136;
+    color: black;
+    margin: .25rem;
+}
+
+.grow-1 .item{
+    flex-grow: 1;
+}
+
+.grow-0 .item{
+    flex-grow: 0;
+}
+
+.grow-1 .grow-3{
+    flex-grow: 3;
+}
+
+.item-A{
+    padding-bottom: 4rem;
+}
+
+.item-B{
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+}
+
+.item-C{
+    padding-bottom: 6rem;
+}
+
+h2{
+    font: 3rem;
+    text-align: center;
+    margin: 0;
+    bottom: 0;
+    color: blue;
+}
+
+h1{
+    margin-bottom: 3em;
+}
